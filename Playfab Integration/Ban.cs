@@ -30,7 +30,7 @@ namespace Bot.Playfab.Commands
         {
             var mb = new ModalBuilder()
                 .WithTitle("Ban")
-                .WithCustomId("ban:ban-menu")
+                .WithCustomId("ban-menu")
                 .AddTextInput("PlayFab Id", "playfab_id", TextInputStyle.Short, "0000000000000000", required: true)
                 .AddTextInput("Reason", "ban_reason", TextInputStyle.Paragraph, "Bad at game", required: true)
                 .AddTextInput("Length (Hours)", "ban_length", TextInputStyle.Short, "0", required: true);
